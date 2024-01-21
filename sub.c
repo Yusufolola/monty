@@ -10,7 +10,7 @@ void f_sub(stack_t **head, unsigned int counter)
 	stack_t *find;
 	int sub, nodes;
 
-	finf = *head;
+	find = *head;
 	for (nodes = 0; find != NULL; nodes++)
 		find = find->next;
 	if (nodes < 2)

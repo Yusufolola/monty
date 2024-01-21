@@ -1,4 +1,3 @@
-rotl.c
 #include "monty.h"
 /**
   *f_rotl- rotates the stack to the top
@@ -18,7 +17,7 @@ void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 	aux->prev = NULL;
 	while (use->next != NULL)
 	{
-		use = tmp->next;
+		use = use->next;
 	}
 	use->next = *head;
 	(*head)->next = NULL;

@@ -42,7 +42,7 @@ void addqueue(stack_t **head, int n)
 	}
 	else
 	{
-		find->next = newnode;
+		find->next = newNode;
 		newNode->prev = find;
 	}
 }
