@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
  * f_add - adds the top two elements of the stack.
- * @head: stack head element
+ * @head: stack head element at the top
  * @counter: line_number
  * Return: no return vlaue
 */
